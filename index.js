@@ -17,6 +17,6 @@ app.use("/get", userInfo);
 app.use("/authenticate", authenticate);
 app.use("/notification", notification);
 
-app.listen(1234, () => {
+app.listen(8080, () => {
   console.log("listening to port 1234");
 });
